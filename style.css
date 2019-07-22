@@ -1,3 +1,8 @@
+
+body{
+  background-color: #f9f9f9;
+}
+
 h1{
   text-align: center;
   margin-top: 100px;
@@ -7,26 +12,34 @@ h1{
 
 .section{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 125px;
 }
 
+.item{
+  margin-right: 30px;
+}
+
 .name_1{
+  margin-top: 27px;
   margin-bottom: 25px;
   text-align: center;
 }
 .name_2{
+  margin-top: 27px;
   margin-bottom: 25px;
   text-align: center;
 }
 .name_3{
+  margin-top: 27px;
   margin-bottom: 25px;
   text-align: center;
 }
 .name_4{
+  margin-top: 27px;
   margin-bottom: 25px;
-  margin-left: 65px;
+  text-align: center;
 }
 
 .price_1{
@@ -51,7 +64,7 @@ h1{
   color: #000000;
   font-size: 18px;
   font-weight: 700;
-  margin-left: 60px;
+  text-align: center;
 }
 
 .btn{
@@ -64,6 +77,8 @@ h1{
   font-weight: 700;
   color: #23bac1;
   text-transform: uppercase;
+  margin-left: 35px;
+  outline: none;
 }
 
 
